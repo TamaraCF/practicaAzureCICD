@@ -10,5 +10,5 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-  - script: npm run test
+  - script: npm run cy:tests
     displayName: 'Cypress run test'
