@@ -15,8 +15,11 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- script: |
-    npm install
-    npm install -g lambdatest-cypress-cli
-    npm run cy:report
-   displayName: "npm install and Run Cypress test case in lambdatest cloud"
+- script: npm ci
+  displayName: 'Install NPM dependencies'
+
+- script: npm run cy:verify
+  displayName: 'Cypress verify'
+
+- script: npm run cy:info
+   displayName: 'Cypress info'
