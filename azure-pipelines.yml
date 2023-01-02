@@ -22,4 +22,4 @@ steps:
   displayName: 'Cypress verify'
 
 - script: npm run cy:info
-   displayName: 'Cypress info'
+  displayName: 'Cypress info'
