@@ -1,0 +1,8 @@
+{
+  "name": "GitHub Actions",
+  "version": "1.0.0",
+  "description": "Practice about GitHub Actions with Cypress: define a workflow",
+  "devDependencies": {
+    "cypress": "^10.0.0"
+  }
+}
