@@ -1,9 +1,11 @@
 {
-  "name": "azure-cypress",
+  "name": "cypress-github",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "cypress run",
-    "onetest": "cypress run --spec cypress/integration/test/example.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "cypress open",
+    "one": "cypress run --spec cypress/integration/test/first_test.js --browser chrome"
   }
 }
