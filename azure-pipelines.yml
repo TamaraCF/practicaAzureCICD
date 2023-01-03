@@ -22,4 +22,4 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-  displayName: 'run test'
+    customCommand: 'run test'
