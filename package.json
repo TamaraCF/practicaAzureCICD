@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "cypress run --spec cypress/integration/test/first_test.js --browser chrome"
+    "test": "cypress run --spec cypress/integration/test/example_test.js --browser chrome"
   },
   "dependencies": {
     "cypress": "^8.0.0"
