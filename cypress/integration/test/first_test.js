@@ -1,6 +1,7 @@
-it('works', () => {
-  expect(42).to.equal(22 + 21)
-  cy.visit('https://example.cypress.io').then(() => {
-    expect('hello').to.equal('hello')
-  })
-})
+describe("Form test", () => {
+  it("Can fill the form", () => {
+    cy.visit("www.google.com");
+    cy.get("form");
+
+  });
+});
