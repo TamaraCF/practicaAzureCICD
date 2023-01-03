@@ -7,18 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "e2e": "cypress open",
     "one": "cypress run --spec cypress/integration/test/first_test.js --browser chrome"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jithinjosejacob/cypress-github.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jithinjosejacob/cypress-github/issues"
-  },
-  "homepage": "https://github.com/jithinjosejacob/cypress-github#readme",
-  "dependencies": {
-    "cypress": "^8.0.0"
   }
 }
