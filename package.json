@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Practice about GitHub Actions with Cypress: define a workflow",
   "scripts": {
-    "test": "cypress run"},
+    "cy:report": "cypress run"
+  },
   "devDependencies": {
     "cypress": "^10.0.0"
   }
