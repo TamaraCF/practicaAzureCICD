@@ -4,6 +4,6 @@
   "description": "",
   "scripts": {
     "test": "cypress run",
-    "onetest": "cypress run --spec cypress/integration/test/first_test.js --browser chrome"
+    "onetest": "cypress run --spec cypress/integration/test/example.js"
   }
 }
