@@ -1,11 +1,10 @@
 {
-  "name": "cypress-github",
+  "name": "azure-cypress",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "cypress run --spec cypress/integration/test/first_test.js --browser chrome"
   },
-  "homepage": "https://github.com/jithinjosejacob/cypress-github#readme",
   "dependencies": {
     "cypress": "^8.0.0"
   }
