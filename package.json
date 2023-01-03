@@ -1,7 +1,10 @@
 {
-  "name": "GitHub Actions",
+  "name": "GitHub_Actions",
   "version": "1.0.0",
   "description": "Practice about GitHub Actions with Cypress: define a workflow",
+  "scripts": {
+    "cy:report": "cypress run"
+  },
   "devDependencies": {
     "cypress": "^10.11.0"
   }
